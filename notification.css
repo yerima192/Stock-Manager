@@ -940,7 +940,7 @@ hr {
         position: fixed;
         top: 20px;
         left: 20px;
-        z-index: 4;
+        z-index: 3;
         background-color: white;
         padding: 8px 12px;
         border-radius: 6px;
