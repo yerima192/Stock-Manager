@@ -1212,6 +1212,9 @@ hr {
         overflow-x: scroll;
         
     }
+    aside{
+        width: 300px !important;
+    }
 
 }
 
@@ -1304,8 +1307,6 @@ hr {
     }
 
 }
-
-
 
 
 @media (max-width: 1024px) {
