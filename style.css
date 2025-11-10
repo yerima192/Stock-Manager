@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #072B4B, #194771);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+form {
+    width: 850px;
+    height: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 2px 4px 50px 13px rgba(0, 0, 0, 0.1);
+}
+
+.connecter {
+    padding: 22px;
+    background-color: #fff;
+    height: 30rem;
+    font-weight: 400;
+}
+
+.connecter h1 {
+    margin-top: 20px;
+    font-size: 1.7rem;
+    color: #194771;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.holder {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.holder input {
+    width: 90%;
+    padding: 13px;
+    border-radius: 8px;
+    border: solid 1px #ccc;
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #64748b;
+}
+
+.manager {
+    padding: 22px;
+    font-weight: 400;
+    height: 30rem;
+    background: linear-gradient(to bottom, #072B4B, #194771);
+}
+
+.radio {
+    padding: 20px;
+
+}
+
+label {
+    margin-left: 5px;
+    color: #64748b;
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+.btn button {
+    width: 180px;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    background-color: #034685;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.para {
+    padding: 13px;
+    text-align: center;
+}
+
+p {
+    margin-top: 10px;
+    font-weight: 400;
+    color: #64748b;
+}
+
+.para a {
+    color: #225382;
+    font-weight: 700;
+}
+
+
+.ronder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+}
+
+.ronder h1 {
+    padding: 22px;
+    border: solid;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #225382;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+   box-shadow: 3px 5px 60px 15px #fff(0,0,0,0.2);
+}
+.second{
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+.manager p{
+    padding: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+
+}
+@media (max-width:550px) {
+     form{
+        display: flex;
+        flex-direction: column-reverse;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+   
+    
+}
+@media (max-width:425px) {
+    form{
+        display: flex;
+        flex-direction: column-reverse;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+   
+}

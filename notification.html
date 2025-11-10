@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification</title>
+    <link rel="stylesheet" href="./notification.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+        <label for="menu-toggle" class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </label>
+        <aside>
+            <div class="dash">
+                <a href="">
+                    <i class="ri-line-chart-line"></i>
+                    Dashboard
+                </a>
+            </div>
+            <div class="composition">
+
+                <a href="./dashboard.html">
+                    <i class="ri-dashboard-3-line"></i>
+                    Tableau de Bord
+                </a>
+                <a href="./analytic.html">
+                    <i class="ri-line-chart-line"></i>
+                    Analytics
+                </a>
+                <a href="./commande.html">
+                    <i class="ri-shopping-cart-2-fill"></i>
+                    Commandes
+                </a>
+                <a href="./parametre.html">
+                    <i class="fa-solid fa-gears"></i>
+                    Paramétres
+                </a>
+                <a href="./rapport.html">
+                    <i class="fa-solid fa-chart-bar"></i>
+                    Rapports
+                </a>
+                <a class="rapportbg" href="./notification.html">
+                    <i class="fa-solid fa-bell"></i>
+                    Notifications
+                </a>
+            </div>
+            <div class="admin">
+                <div class="g-user">
+                    <div class="user">
+                        <i class="ri-user-fill"></i>
+                    </div>
+                    <div class="para">
+                        <span>Administrateur</span>
+                        <p>Gestionnaire</p>
+                    </div>
+                </div>
+                <div class="profil centre">
+                    <a class="para top" href="#popup-profil">
+                        <i class="ri-user-fill"></i>
+                        <span>Mon Profil</span>
+                    </a>
+                </div>
+                <div class="profil rouge">
+                    <a class="para" href="./index.html">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <span>Déconnexion</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+        <main>
+            <nav>
+                <div class="produit">
+                    <div class="stock">
+                        <h2>Gestion de Stock - Produits Electroniques</h2>
+                    </div>
+                    <div class="bell">
+                        <div class="notice">
+                            <i class="fa-solid fa-bell"></i>
+                            <div class="trois">3</div>
+                        </div>
+                        <div class="fill">
+                            <div class="user2">
+                                <i class="ri-user-fill"></i>
+                            </div>
+                            <div class="adm">
+                                <span> Administrateur</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <section class="principale">
+                <div class="bord">
+                    <h1>
+                        <i class="fa-solid fa-bell"></i>
+                        Notifications et Alertes
+                    </h1>
+                    <p>Centre de notification et gestion des alertes de systeme</p>
+                </div>
+                <div class="faible">
+                    <div class="solid">
+                        <div class="blue">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <span>12</span>
+                            <p>Non lues</p>
+
+                        </div>
+                    </div>
+                    <div class="solid">
+                        <div class="blue rose ">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                        </div>
+                        <div class="text">
+                            <span>3</span>
+                            <p>Urgentes</p>
+
+                        </div>
+                    </div>
+                    <div class="solid">
+                        <div class="blue vert ">
+                            <i class="fa-solid fa-calendar-day"></i>
+                        </div>
+                        <div class="text">
+                            <span>23</span>
+                            <p>Aujourd'hui</p>
+
+                        </div>
+                    </div>
+                    <div class="solid">
+                        <div class="blue gris percent">
+                            <i class="fa-solid fa-list-ul"></i>
+                        </div>
+                        <div class="text">
+                            <span>156</span>
+                            <p>Total</p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="statut">
+                <div class="periode">
+                    <div class="label">
+                        <label>Type:</label>
+                        <select>
+                            <option>Toutes</option>
+                            <option>Stock</option>
+                            <option>Commandes</option>
+                            <option>Systeme</option>
+                            <option>Sécurité</option>
+                        </select>
+                    </div>
+                    <div class="label">
+                        <label>Priorité:</label>
+                        <select>
+                            <option>Toutes</option>
+                            <option>Urgent</option>
+                            <option>Haute</option>
+                            <option>Moyenne</option>
+                            <option>Basse</option>
+                        </select>
+                    </div>
+                    <div class="label">
+                        <label>Statut:</label>
+                        <select>
+                            <option>Toutes</option>
+                            <option>Non lues</option>
+                            <option>Lues</option>
+
+                        </select>
+                    </div>
+                    <div>
+                        <div class="filter">
+                            <button>
+                                <i class="fa-solid fa-filter"></i>
+                                Filter
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            <section class="unité">
+                <div class="marque rouge1">
+                    <div class="triangle">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                    </div>
+                    <div class="critique">
+                        <h4>Stock critique detecté</h4>
+                        <div class="longue">
+                            <p >Le produit "Airpods Pro 2" a atteint le seuil critique de stock (3 unités
+                                restantes). Veuillez passer commande rapidement.</p>
+                        </div>
+
+                        <button class="vision col">Passer une commande</button>
+                        <button class="comme">Marquer comme lu</button>
+                    </div>
+                    <div class="fin">
+                        <span>Il y'a 5 minutes</span>
+                    </div>
+
+                </div>
+                <div class="marque bas bleu1">
+                    <div class="triangle bleu2">
+                        <i class="fa-solid fa-circle-info"></i>
+                    </div>
+                    <div class="critique">
+                        <h4>Nouvelle commande reçue</h4>
+                        <p>Commande #CMD - 2024 - 004 reçue de Marie Dubois pour un MackBook Pro 16" (€899.00)</p>
+                        <button class="vision">Passer une commande</button>
+                        <button class="comme">Marquer comme lu</button>
+                    </div>
+                    <div class="fin">
+                        <span>Il y'a 15 minutes</span>
+                    </div>
+
+                </div>
+                <div class="marque bas">
+                    <div class="triangle vert1">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <div class="critique">
+                        <h4>Commande expédiée</h4>
+                        <p>Commande #CMD - 2024 - 003 a été expédiée avec succés. Numero de suivi:FR123456789</p>
+                        <button class="vision claire">Suivre renvoi</button>
+                    </div>
+                    <div class="fin">
+                        <span>Il y'a 1 heure</span>
+                    </div>
+
+                </div>
+                <div class="marque bas">
+                    <div class="triangle gris1">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <div class="critique">
+                        <h4>Sauvegarde automatique terminée</h4>
+                        <p>Sauvegarde quotidienne des données terminé avec succés. 2.3 GB de données Sauvegardées.</p>
+                        <button class="comme">Voir les details</button>
+                    </div>
+                    <div class="fin">
+                        <span>Il y'a 2 heure</span>
+                    </div>
+
+                </div>
+                <div class="marque bas">
+                    <div class="triangle orange1">
+                        <i class="fa-solid fa-shield"></i>
+                    </div>
+                    <div class="critique">
+                        <h4>Connexion depuis un nouvel pareil</h4>
+                        <div class="longue">
+                            <p >Connexion detectée depuis un nouvel appareil (iphone, Paris, France). Si
+                                ce n'est pas vous, changer votre mot de passe. </p>
+
+                        </div>
+                        <button class=" comme col">Securiser le compte</button>
+                    </div>
+                    <div class="fin">
+                        <span>Il y'a 3 huere </span>
+                    </div>
+
+                </div>
+                <div class="selectionner">
+                    <div class="labello">
+                        <input type="checkbox" name="" id="">
+                        <label>Selectionner tout </label>
+                    </div>
+                    <div>
+                        <button class="comme">
+                            <i class="fa-solid fa-check"></i>
+                            Marquer comme lu
+                        </button>
+                        <button class="vision col">
+                            <i class="fa-solid fa-trash"></i>
+                            Supprimer
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <div class="popup-profil" id="popup-profil">
+            <div class="popup">
+                <div class="mark">
+                    <h3>
+                        <i class="fa-solid fa-circle-user"></i>
+                        Mon profil
+                    </h3>
+                    <a class="close" href="">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+                <div class="trace"></div>
+                <div class="iconne">
+                    <div class="circle">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+                <div class="fermer1">
+                    <button>Changer de photos</button>
+                </div>
+                <div class="holder">
+                    <div class="lab">
+                        <label>Nom:</label>
+                        <input type="text" name="" placeholder="Administrateur" id="">
+                    </div>
+                    <div class="lab">
+                        <label>Prénom:</label>
+                        <input type="text" name="" placeholder="Jean" id="">
+                    </div>
+                </div>
+                <div class="holder">
+                    <div class="lab">
+                        <label>Nom:</label>
+                        <input type="email" name="" placeholder="Mira@gmail.com" id="">
+                    </div>
+                    <div class="lab">
+                        <label>Prénom:</label>
+                        <input type="tel" name="" placeholder="800427....." id="">
+                    </div>
+                </div>
+                <div class="holder">
+                    <div class="lab mira">
+                        <label>Rôle:</label>
+                        <input type="text" name="" placeholder="Administrateur" id="">
+                    </div>
+                </div>
+                <div class="holder">
+                    <div class="lab mira">
+                        <label>Derniere Connexion:</label>
+                        <input type="text" name="" placeholder="15 Janvier 2024 à 14:30" id="">
+                    </div>
+                </div>
+                <div class="trace"></div>
+                <div class="fermer">
+                    <button class="fermeture"><a href="">Annuler</a></button>
+                    <button class="imprimer">Sauvegarder</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

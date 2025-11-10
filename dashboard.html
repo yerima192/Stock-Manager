@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Gestion</title>
+    <link rel="stylesheet" href="./dashboard.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+   <div class="container">
+     <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+    <label for="menu-toggle" class="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </label>
+    <aside>
+        <div class="dash">
+            <a href="">
+                <i class="ri-line-chart-line"></i>
+                Dashboard
+            </a>
+        </div>
+        <div class="composition">
+            
+            <a class="couleur" href="./dashboard.html">
+                <i class="ri-dashboard-3-line"></i>
+                Tableau de Bord
+            </a>
+            <a href="./analytic.html">
+                <i class="ri-line-chart-line"></i>
+                Analytics
+            </a>
+            <a href="./commande.html">
+                <i class="ri-shopping-cart-2-fill"></i>
+                Commandes
+            </a>
+            <a href="./parametre.html">
+                <i class="fa-solid fa-gears"></i>
+                Paramétres
+            </a>
+            <a href="./rapport.html">
+                <i class="fa-solid fa-chart-bar"></i>
+                Rapports
+            </a>
+            <a href="./notification.html">
+                <i class="fa-solid fa-bell"></i>
+                Notifications
+            </a>
+        </div>
+        <div class="admin">
+            <div class="g-user">
+                <div class="user">
+                    <i class="ri-user-fill"></i>
+                </div>
+                <div class="para">
+                    <span>Administrateur</span>
+                    <p>Gestionnaire</p>
+                </div>
+            </div>
+            <div class="profil centre">
+
+                <a class="para top" href="#popup-profil">
+                    <i class="ri-user-fill"></i>
+                    <span>Mon Profil</span>
+                </a>
+
+            </div>
+            <div class="profil rouge">
+                <a class="para" href="./index.html">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span>Déconnexion</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </aside>
+    <main>
+        <nav>
+            <div class="produit">
+                <div class="stock">
+                    <h2>Gestion de Stock - Produits Electroniques</h2>
+                </div>
+                <div class="bell">
+                    <div class="notice">
+                        <i class="fa-solid fa-bell"></i>
+                        <div class="trois">3</div>
+                    </div>
+                    <div class="fill">
+                        <div class="user2">
+                            <i class="ri-user-fill"></i>
+                        </div>
+                        <div class="adm">
+                            <span> Administrateur</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="principale">
+            <div class="bord ">
+                <h1>Tableau de Bord Principal</h1>
+                <h3>Gestion des stocks de produits électroniques </h3>
+            </div>
+            <div class="faible">
+                <div class="solid">
+                    <div class="blue">
+                        <i class="fa-solid fa-boxes-stacked"></i>
+                    </div>
+                    <div class="text">
+                        <span>1,234</span>
+                        <p>Produits en Stock</p>
+                    </div>
+                </div>
+                <div class="solid">
+                    <div class="blue orange">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                    </div>
+                    <div class="text">
+                        <span>23</span>
+                        <p>Stock Faible</p>
+                    </div>
+                </div>
+                <div class="solid">
+                    <div class="blue vert">
+                        <i class="fa-solid fa-euro-sign"></i>
+                    </div>
+                    <div class="text">
+                        <span>€45, 768</span>
+                        <p>Valeur Totale</p>
+                    </div>
+                </div>
+                <div class="solid">
+                    <div class="blue gris">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <div class="text">
+                        <span>12</span>
+                        <p>Commandes Attente</p>
+                    </div>
+                </div>
+            </div>
+            <div class="secondaire">
+                <div class="glass separatrice">
+                    <h2>Gestion des Stocks</h2>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" name="" placeholder="Recherche un produit ....." id="">
+                    </div>
+                    <div class="gauche">
+                        <div class="plus">
+                            <div class="icon1">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <div class="add">
+                                <span>Ajouter Produit</span>
+                            </div>
+                        </div>
+                        <div class="download">
+                            <div class="icon2">
+                                <i class="fa-solid fa-download"></i>
+                            </div>
+                            <div class="export">
+                                <span>Exporter</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr class="entete">
+                        <th>ID</th>
+                        <th>PRODUIT</th>
+                        <th>CATEGORIE</th>
+                        <th>STOCK</th>
+                        <th>PRIX</th>
+                        <th>STATUT</th>
+                        <th>ACTIONS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="developpement">
+                        <td>
+                            <span>#001</span>
+                        </td>
+                        <td class="mac">
+                            <div class="icon4">
+                                <i class="fa-solid fa-laptop"></i>
+                            </div>
+                            <div class="apple">
+                                <h3>MacBook Pro 16"</h3>
+                                <span>Apple - M3 Pro</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="LAPTOP">
+                                <span>LAPTOP</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="quinz">
+                                <span>15</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="euro">
+                                <span>€2,899</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="quinz large">
+                                <span>Actif</span>
+                            </div>
+                        </td>
+                        <td class="delate">
+                            <div class="mac-delate">
+                                <div class="icon5">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                                <div class="icon5">
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="developpement">
+                        <td>
+                            <span>#002</span>
+                        </td>
+                        <td class="mac">
+                            <div class="icon4 mobile">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+                            <div class="apple">
+                                <h3>iPhone 15 pro</h3>
+                                <span>Apple - 128GB</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="LAPTOP phone">
+                                <span>SMARTPHONE</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="quinz huit">
+                                <span>8</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="euro">
+                                <span>€1,199</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="quinz large">
+                                <span>Actif</span>
+                            </div>
+                        </td>
+                        <td class="delate">
+                            <div class="mac-delate">
+                                <div class="icon5">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                                <div class="icon5">
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="developpement">
+                        <td>
+                            <span>#003</span>
+                        </td>
+                        <td class="mac">
+                            <div class="icon4 mobile">
+                                <i class="fa-solid fa-headphones"></i>
+                            </div>
+                            <div class="apple">
+                                <h3>Airpods Pro 2</h3>
+                                <span>Apple - USB-C</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="LAPTOP audio">
+                                <span>AUDIO</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="quinz rose">
+                                <span>3</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="euro">
+                                <span>€279</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="quinz audio audio1">
+                                <span>Stock Faible</span>
+                            </div>
+                        </td>
+                        <td class="delate">
+                            <div class="mac-delate">
+                                <div class="icon5">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                                <div class="icon5">
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="developpement">
+                        <td>
+                            <span>#004</span>
+                        </td>
+                        <td class="mac">
+                            <div class="icon4 mobile">
+                                <i class="fa-solid fa-tablet-screen-button"></i>
+                            </div>
+                            <div class="apple">
+                                <h3>iPad Air </h3>
+                                <span>Apple - 64GB</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="LAPTOP">
+                                <span>TABLETTE</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="quinz">
+                                <span>22</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="euro">
+                                <span>€649</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="quinz large">
+                                <span>Actif</span>
+                            </div>
+                        </td>
+                        <td class="delate">
+                            <div class="mac-delate">
+                                <div class="icon5">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                                <div class="icon5">
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="developpement">
+                        <td>
+                            <span>#005</span>
+                        </td>
+                        <td class="mac">
+                            <div class="icon4 mobile">
+                                <i class="fa-solid fa-tv"></i>
+                            </div>
+                            <div class="apple">
+                                <h3>Apple TV 4K</h3>
+                                <span>128GB - Wifi</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="LAPTOP rose rose1">
+                                <span>TV</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="quinz audio">
+                                <span>12</span>
+
+                            </div>
+                        </td>
+                        <td>
+                            <div class="euro">
+                                <span>€179</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="quinz large">
+                                <span>Actif</span>
+                            </div>
+                        </td>
+                        <td class="delate">
+                            <div class="mac-delate">
+                                <div class="icon5">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                </div>
+                                <div class="icon5">
+                                    <i class="fa-solid fa-trash"></i>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+
+    <div class="popup-profil" id="popup-profil">
+        <div class="popup">
+            <div class="mark">
+                <h3>
+                    <i class="fa-solid fa-circle-user"></i>
+                    Mon profil
+                </h3>
+                <a class="close" href="">
+                    <i class="fa-solid fa-xmark"></i>
+                </a>
+            </div>
+            <div class="trace"></div>
+            <div class="iconne">
+                <div class="circle">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+            <div class="fermer1">
+                <button>Changer de photos</button>
+            </div>
+            <div class="holder">
+                <div class="lab">
+                    <label>Nom:</label>
+                    <input type="text" name="" placeholder="Administrateur" id="">
+                </div>
+                <div class="lab">
+                    <label>Prénom:</label>
+                    <input type="text" name="" placeholder="Jean" id="">
+                </div>
+            </div>
+            <div class="holder">
+                <div class="lab">
+                    <label>Nom:</label>
+                    <input type="email" name="" placeholder="Mira@gmail.com" id="">
+                </div>
+                <div class="lab">
+                    <label>Prénom:</label>
+                    <input type="tel" name="" placeholder="800427....." id="">
+                </div>
+            </div>
+            <div class="holder">
+                <div class="lab mira">
+                    <label>Rôle:</label>
+                    <input type="text" name="" placeholder="Administrateur" id="">
+                </div>
+            </div>
+            <div class="holder">
+                <div class="lab mira">
+                    <label>Derniere Connexion:</label>
+                    <input type="text" name="" placeholder="15 Janvier 2024 à 14:30" id="">
+                </div>
+            </div>
+            <div class="trace"></div>
+            <div class="fermer">
+                <button class="fermeture"><a href="">Annuler</a></button>
+                <button class="imprimer">Sauvegarder</button>
+            </div>
+        </div>
+    </div>
+
+   </div>
+
+</body>
+
+</html>
+

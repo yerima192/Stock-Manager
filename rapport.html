@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapport</title>
+    <link rel="stylesheet" href="./rapport.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <div class="container">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+        <label for="menu-toggle" class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </label>
+        <aside>
+            <div class="dash">
+                <a href="">
+                    <i class="ri-line-chart-line"></i>
+                    Dashboard
+                </a>
+            </div>
+            <div class="composition">
+
+                <a href="./dashboard.html">
+                    <i class="ri-dashboard-3-line"></i>
+                    Tableau de Bord
+                </a>
+                <a href="./analytic.html">
+                    <i class="ri-line-chart-line"></i>
+                    Analytics
+                </a>
+                <a href="./commande.html">
+                    <i class="ri-shopping-cart-2-fill"></i>
+                    Commandes
+                </a>
+                <a href="./parametre.html">
+                    <i class="fa-solid fa-gears"></i>
+                    Paramétres
+                </a>
+                <a class="rapportbg"  href="./rapport.html">
+                    <i class="fa-solid fa-chart-bar"></i>
+                    Rapports
+                </a>
+                <a href="./notification.html">
+                    <i class="fa-solid fa-bell"></i>
+                    Notifications
+                </a>
+            </div>
+            <div class="admin">
+                <div class="g-user">
+                    <div class="user">
+                        <i class="ri-user-fill"></i>
+                    </div>
+                    <div class="para">
+                        <span>Administrateur</span>
+                        <p>Gestionnaire</p>
+                    </div>
+                </div>
+                <div class="profil centre">
+                    <a class="para top" href="#popup-profil">
+                        <i class="ri-user-fill"></i>
+                        <span>Mon Profil</span>
+                    </a>
+                </div>
+                <div class="profil rouge">
+                    <a class="para" href="./index.html">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <span>Déconnexion</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+
+        <main>
+            <nav>
+                <div class="produit">
+                    <div class="stock">
+                        <h2>Gestion de Stock - Produits Electroniques</h2>
+                    </div>
+                    <div class="bell">
+                        <div class="notice">
+                            <i class="fa-solid fa-bell"></i>
+                            <div class="trois">3</div>
+                        </div>
+                        <div class="fill">
+                            <div class="user2">
+                                <i class="ri-user-fill"></i>
+                            </div>
+                            <div class="adm">
+                                <span> Administrateur</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <section class="principale">
+                <div class="bord">
+                    <h1>
+                        <i class="fa-solid fa-chart-bar"></i>
+                        Rapports & Analytics
+                    </h1>
+                    <h3>Gération et Consultation des Rapport detaillés</h3>
+                </div>
+                <div class="periode">
+                    <div class="label">
+                        <label>Type de rapport:</label>
+                        <select>
+                            <option>Rapport des ventes</option>
+                            <option>Rapport de Stock</option>
+                            <option>Rapport finacier</option>
+                            <option>Rapport client</option>
+                        </select>
+                    </div>
+                    <div class="label">
+                        <label>Periode:</label>
+                        <select>
+                            <option>Ce mois </option>
+                            <option>Aujoud'hui</option>
+                            <option>cette semaine</option>
+                            <option>Ce trimestre</option>
+                            <option>Cette année</option>
+                        </select>
+                    </div>
+                    <div class="label">
+                        <label>Format:</label>
+                        <select>
+                            <option>PDF</option>
+                            <option>Excel</option>
+                            <option>CSV</option>
+                        </select>
+                    </div>
+                    <div>
+                        <div class="filter arranger">
+                            <button>
+                                <i class="fa-solid fa-file-arrow-down"></i>
+                                Generer le Rapport
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="principale">
+                <div class="faible">
+                    <div class="solid">
+                        <div class="blue">
+                            <i class="ri-line-chart-line"></i>
+                        </div>
+                        <div class="text">
+                            <div>
+                                <h4>Ventes du mois</h4>
+                            </div>
+                            <div class="d-flex">
+                                <div>
+                                    <span>€45,678</span>
+                                    <p>Chiffre d'affaires</p>
+                                </div>
+                                <div>
+                                    <span>+12.5%</span>
+                                    <p>vs dernier mois</p>
+                                </div>
+                            </div>
+                            <button>Voir details</button>
+                        </div>
+                    </div>
+                    <div class="solid">
+                        <div class="blue">
+                            <i class="fa-solid fa-boxes-stacked"></i>
+                        </div>
+                        <div class="text">
+                            <div>
+                                <h4>Etat du stock</h4>
+
+                            </div>
+                            <div class="d-flex">
+                                <div>
+                                    <span>1,234</span>
+                                    <p>Article en stock</p>
+                                </div>
+                                <div>
+                                    <span>23</span>
+                                    <p>Stock faible</p>
+                                </div>
+                            </div>
+                            <button>Voir details</button>
+                        </div>
+                    </div>
+                    <div class="solid">
+                        <div class="blue">
+                            <i class="ri-line-chart-line"></i>
+                        </div>
+                        <div class="text">
+                            <div>
+                                <h4>Clients</h4>
+
+                            </div>
+                            <div class="d-flex">
+                                <div>
+                                    <span>856</span>
+                                    <p>Nouveau client</p>
+                                </div>
+                                <div>
+                                    <span>2,345</span>
+                                    <p>Total client</p>
+                                </div>
+                            </div>
+                            <button>Voir details</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="principale">
+                <div class="notification">
+                    <div class="sitting">
+                        <h3>
+                            <i class="fa-solid fa-rotate-left"></i>
+                            Historiques des Rapports
+                        </h3>
+                    </div>
+                    <div class="flexta">
+                        <table class="historique">
+                            <thead>
+                                <tr>
+                                    <th>Nom du rapport</th>
+                                    <th>Type</th>
+                                    <th>Date de génération</th>
+                                    <th>Statut</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="bordure">
+                                    <td>
+                                        <i class="fa-solid fa-file-pdf"></i>
+                                        Rapport_ventes_janvier_2024.pdf
+                                    </td>
+                                    <td>Ventes</td>
+                                    <td>15 Jan 2024</td>
+                                    <td>Terminé</td>
+                                    <td>
+                                        <i class="fa-solid fa-download"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
+                                </tr>
+                                <tr class="bordure">
+                                    <td>
+                                        <i class="fa-solid fa-file-excel"></i>
+                                        Stock_inventaire_janvier_2024.xlsx
+                                    </td>
+                                    <td>Stock</td>
+                                    <td>14 Jan 2024</td>
+                                    <td>Terminé</td>
+                                    <td>
+                                        <i class="fa-solid fa-download"></i>
+                                        <i class="fa-solid fa-trash"></i>
+                                    </td>
+                                </tr>
+                                <tr class="bordure">
+                                    <td>
+                                        <i class="fa-solid fa-file-excel"></i>
+                                        Rapport_financier_trimestre.xlsx
+                                    </td>
+                                    <td>Financier</td>
+                                    <td>En cours...</td>
+                                    <td>En cours</td>
+                                    <td>
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+            </section>
+        </main>
+
+        <div class="popup-profil" id="popup-profil">
+            <div class="popup">
+                <div class="mark">
+                    <h3>
+                        <i class="fa-solid fa-circle-user"></i>
+                        Mon profil
+                    </h3>
+                    <a class="close" href="">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+                <div class="trace"></div>
+                <div class="iconne">
+                    <div class="circle">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+                <div class="fermer1">
+                    <button>Changer de photos</button>
+                </div>
+                <div class="holder">
+                    <div class="lab">
+                        <label>Nom:</label>
+                        <input type="text" name="" placeholder="Administrateur" id="">
+                    </div>
+                    <div class="lab">
+                        <label>Prénom:</label>
+                        <input type="text" name="" placeholder="Jean" id="">
+                    </div>
+                </div>
+                <div class="holder">
+                    <div class="lab">
+                        <label>Nom:</label>
+                        <input type="email" name="" placeholder="Mira@gmail.com" id="">
+                    </div>
+                    <div class="lab">
+                        <label>Prénom:</label>
+                        <input type="tel" name="" placeholder="800427....." id="">
+                    </div>
+                </div>
+                <div class="holder">
+                    <div class="lab mira">
+                        <label>Rôle:</label>
+                        <input type="text" name="" placeholder="Administrateur" id="">
+                    </div>
+                </div>
+                <div class="holder">
+                    <div class="lab mira">
+                        <label>Derniere Connexion:</label>
+                        <input type="text" name="" placeholder="15 Janvier 2024 à 14:30" id="">
+                    </div>
+                </div>
+                <div class="trace"></div>
+                <div class="fermer">
+                    <button class="fermeture"><a href="">Annuler</a></button>
+                    <button class="imprimer">Sauvegarder</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
