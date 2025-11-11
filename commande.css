@@ -17,7 +17,6 @@ body {
     height: 100vh;
 }
 
-
 .menu-toggle-checkbox {
     display: none;
 }
@@ -28,7 +27,7 @@ body {
     cursor: pointer;
     color: #262b40;
     margin-right: 20px;
- 
+
 }
 
 .dash {
@@ -100,14 +99,12 @@ body {
     font-size: 1.9rem;
     color: #fff;
     font-weight: 700;
-
 }
 
 .para span {
     color: #fff;
     font-weight: 400;
     font-size: 15px;
-
 }
 
 .para p {
@@ -120,7 +117,6 @@ body {
     padding: 5px;
     width: 100%;
 }
-
 .centre i {
     border: solid;
     padding: 5px;
@@ -157,7 +153,6 @@ body {
     background-color: #523647d3;
 }
 
-
 main {
     height: 100%;
     width: 85%;
@@ -172,8 +167,6 @@ aside {
     background-color: #1e293b;
     z-index: 2;
 }
-
-
 a {
     color: #fff;
     text-decoration: none;
@@ -215,7 +208,6 @@ main {
     padding-top: 90px;
     overflow-y: scroll;
 }
-
 .user1 {
     padding: 5px;
     border-radius: 20px;
@@ -226,7 +218,6 @@ main {
     color: #3E485B;
 
 }
-
 .bracet i {
     font-size: 1.3rem;
     color: #fff;
@@ -257,8 +248,6 @@ nav {
     color: #1e293b;
     font-weight: 700;
 }
-
-
 .bell {
     display: flex;
     justify-content: center;
@@ -316,8 +305,6 @@ nav {
         opacity: 0.8;
     }
 }
-
-
 .user2 {
     padding: 5px;
     border-radius: 20px;
@@ -335,7 +322,6 @@ nav {
     font-size: 16px;
     font-weight: 400;
 }
-
 
 .principale {
     padding: 30px;
@@ -375,7 +361,6 @@ nav {
     gap: 20px;
     box-shadow: 0px 2px 10px -2px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-
 }
 
 .blue {
@@ -400,14 +385,12 @@ nav {
     font-weight: 600;
     color: #1e293b;
 }
-
 .text p {
     font-size: 16px;
     color: #64748b;
     font-weight: 400;
 
 }
-
 .orange {
     background-color: #F7A809;
 }
@@ -423,7 +406,6 @@ nav {
 .statut {
     padding: 30px;
 }
-
 .periode {
     display: flex;
     justify-content: start;
@@ -440,17 +422,13 @@ nav {
     flex-direction: column;
 
 }
-
 .label select {
     padding: 11px;
     width: 200px;
     border-radius: 5px;
     outline: none;
     font-size: 15px;
-
-
 }
-
 .separator {
     display: flex;
     justify-content: center;
@@ -462,7 +440,6 @@ nav {
 .glass {
     width: 220px;
 }
-
 .glass input {
     width: 100%;
     font-size: 15px;
@@ -471,14 +448,11 @@ nav {
     border: solid 1px gray;
     padding: 13px;
     border-radius: 5px;
-
 }
 
 .glass input:focus {
     border: solid black 1.5px;
 }
-
-
 .magn i {
     width: 50px;
     background-color: #296FEF;
@@ -488,7 +462,6 @@ nav {
     padding: 15px;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
-
 }
 
 .commande {
@@ -500,8 +473,6 @@ nav {
     padding: 20px;
     border-radius: 10px;
 }
-
-
 .flex {
     display: flex;
     justify-content: space-between;
@@ -513,7 +484,6 @@ nav {
     color: #64748b;
 
 }
-
 .para {
     color: #296FEF;
     font-weight: 700;
@@ -529,7 +499,6 @@ nav {
     border-radius: 5px;
     padding: 10px;
 }
-
 .size {
     font-size: 14px;
 }
@@ -543,7 +512,6 @@ nav {
     padding: 10px;
 }
 
-
 .voir {
     background-color: #2768E9;
     border-radius: 8px;
@@ -556,7 +524,6 @@ nav {
     font-weight: 400;
     cursor: pointer;
     border-radius: 8px;
-
 }
 
 .modifier {
@@ -655,8 +622,6 @@ nav {
     align-items: center;
     padding: 30px;
     color: #1e293b;
-
-
 }
 
 hr {
@@ -679,7 +644,6 @@ hr {
     padding: 20px;
     border-bottom: solid #2768E9 2px;
 }
-
 .num {
     display: flex;
     justify-content: start;
@@ -753,7 +717,6 @@ hr {
     color: black;
 }
 
-
 .fermer button:nth-child(1) {
     display: inline-block;
     background-color: #fff;
@@ -781,8 +744,7 @@ hr {
     align-items: center;
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.3s ease;
-
+    transition: opacity 0.3s ease
 }
 
 .popup-modifier:target {
@@ -845,7 +807,6 @@ hr {
     border-radius: 5px;
 }
 
-
 .selection input {
     width: 90%;
     margin: auto;
@@ -857,8 +818,6 @@ hr {
     border: solid 1px #ccc;
 
 }
-
-
 
 .fermer {
     display: flex;
@@ -919,7 +878,6 @@ hr {
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s ease;
-
 }
 
 .popup-profil:target {
@@ -1052,7 +1010,6 @@ hr {
     .principale{
         margin-top: 50px;
     }
- 
 }
 @media (max-width:768px) {
       .stock h2{
@@ -1063,7 +1020,6 @@ hr {
    .menu-toggle {
         padding: 6px 10px;
         font-size: 1.5rem;
-
     }
     .principale{
         margin-top: 60px;
@@ -1079,8 +1035,6 @@ hr {
     }
     .label select{
         width: 500px;
-
-
     }
     .glass{
         width: 450px;
@@ -1111,7 +1065,6 @@ hr {
         display: flex;
         flex-direction: column;
     }
-
     .stock h2 {
         width: 100%;
         text-align: right;
@@ -1125,7 +1078,6 @@ hr {
     }
       .label select{
         width: 300px;
-
     }
   
     .glass{

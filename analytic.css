@@ -171,10 +171,6 @@ a {
     padding: 8px;
 
 }
-
-
-
-
 .composition {
     display: flex;
     justify-content: start;
@@ -188,16 +184,12 @@ a {
     border-bottom: solid #ccccccca 1px;
     height: 55%;
 }
-
 .composition i {
     margin-right: 10px;
     color: #fff;
     font-weight: 700;
     font-size: 0.9rem;
 }
-
-
-
 main {
     height: 100%;
     width: 85%;
@@ -205,7 +197,6 @@ main {
     padding-top: 90px;
     overflow-y: scroll;
 }
-
 .user1 {
     padding: 5px;
     border-radius: 20px;
@@ -216,12 +207,10 @@ main {
     color: #3E485B;
 
 }
-
 .bracet i {
     font-size: 1.3rem;
     color: #fff;
     font-weight: 700;
-
 }
 
 nav {
@@ -233,7 +222,6 @@ nav {
     right: 0;
     background-color: #fff;
 }
-
 .produit {
     display: flex;
     justify-content: space-between;
@@ -247,7 +235,6 @@ nav {
     color: #1e293b;
     font-weight: 700;
 }
-
 
 .bell {
     display: flex;
@@ -306,7 +293,6 @@ nav {
         opacity: 0.8;
     }
 }
-
 
 .user2 {
     padding: 5px;
@@ -426,7 +412,6 @@ nav {
 .client {
     color: #ae0303;
     background-color: #ff000049;
-
 }
 
 .percent {
@@ -447,7 +432,6 @@ nav {
     box-shadow: 0px 2px 10px -2px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
-
 }
 
 .selector {
@@ -465,7 +449,6 @@ select {
     outline: none;
 
 }
-
 .pyramide {
     display: flex;
     justify-content: space-between;
@@ -658,7 +641,6 @@ select {
     box-shadow: 0px 2px 10px -2px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
-
 }
 
 .repar {
@@ -667,8 +649,6 @@ select {
     color: #1e293bfc;
     padding: 30px;
     font-weight: 400;
-
-
 }
 
 .smar {
@@ -753,7 +733,6 @@ table {
     font-weight: 600;
     font-size: 16px;
     border-bottom: solid #cccccc87 1px;
-
 }
 
 .deve:hover {
@@ -775,7 +754,6 @@ table {
     color: #1e293bde;
     font-weight: 400;
     border-bottom: solid #cccccc87 1px;
-
 }
 
 .gauche div {
@@ -837,7 +815,6 @@ table {
     text-decoration: none;
     color: black;
 }
-
 
 .fermer button:nth-child(1) {
     display: inline-block;
@@ -1259,15 +1236,10 @@ hr {
     .menu-toggle {
         padding: 6px 10px;
         font-size: 1.5rem;
-
     }
-
-
 }
 
 @media (max-width:375px) {
-
-
 
     .principale {
         margin-top: 35px;
@@ -1282,7 +1254,6 @@ hr {
     .menu-toggle {
         padding: 6px 10px;
         font-size: 1.5rem;
-
     }
 
 }
@@ -1294,12 +1265,9 @@ hr {
         text-align: right;
         font-size: 0.7rem;
     }
-
     .menu-toggle {
         padding: 5px 8px;
         font-size: 1.3rem;
-
-
     }
 
     .principale {
@@ -1307,7 +1275,6 @@ hr {
     }
 
 }
-
 
 @media (max-width: 1024px) {
     aside {
@@ -1373,10 +1340,7 @@ hr {
         display: grid;
         grid-template-columns: 1fr !important ;
     }
-
 }
-
-
 
 @media (max-width:1440px) {
       .stock {
